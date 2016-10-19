@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.6.2  Built on : Apr 17, 2012 (05:33:49 IST) --><serviceGroup>
+    <service name="JobSubmission2">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2MessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2Skeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="submitJob" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://jsapi2.prompt.components.workflow.lexmark.com/">
+            <actionMapping>submitJob</actionMapping>
+            <outputActionMapping>//schemas.xmlsoap.org/wsdl/MTOMServicePortType/JobSubmissionResponse</outputActionMapping>
+            <faultActionMapping faultName="fault">http://jsapi2.prompt.components.workflow.lexmark.com/JobSubmission2PortType/submitJob/Fault/fault</faultActionMapping>
+            <faultActionMapping faultName="ProfileNotFoundFault">http://jsapi2.prompt.components.workflow.lexmark.com/JobSubmission2PortType/submitJob/Fault/fault</faultActionMapping>
+            <faultActionMapping faultName="ProfileNotFoundFault_Exception">http://jsapi2.prompt.components.workflow.lexmark.com/JobSubmission2PortType/submitJob/Fault/fault</faultActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

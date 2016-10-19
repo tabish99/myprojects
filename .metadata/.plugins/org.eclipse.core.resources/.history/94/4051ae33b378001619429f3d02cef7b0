@@ -1,0 +1,17 @@
+package org.tabish.bgc;
+
+import java.util.StringTokenizer;
+
+public class TestStringTokenizer
+	{
+
+		/**
+		 * @param args
+		 */
+		public static void main(String[] args)
+			{
+				StringTokenizer st = "Auto-generated method stub";
+
+			}
+
+	}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;A_practice&apos; to &apos;Mod_bit_cast_q&apos;" description="Rename resource &apos;A_practice&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/A_practice" name="Mod_bit_cast_q" stamp="1472390420908" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Mod_bit_cast_q&apos; to &apos;AMod_bit_cast_q&apos;" description="Rename resource &apos;Mod_bit_cast_q&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Mod_bit_cast_q" name="AMod_bit_cast_q" stamp="1472390440576" updateReferences="true"/>
+</session>

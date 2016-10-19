@@ -1,0 +1,14 @@
+<web-app>
+  
+<servlet>
+<servlet-name>DemoServlet</servlet-name>
+<servlet-class>DemoServlet1</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>DemoServlet</servlet-name>
+<url-pattern>/testEJB</url-pattern>
+</servlet-mapping>
+
+</web-app>

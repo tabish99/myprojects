@@ -1,0 +1,58 @@
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.rmi.RemoteException;
+
+import javax.xml.rpc.ServiceException;
+
+import com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2Locator;
+import com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2PortType;
+import com.lexmark.workflow.components.prompt.jsapi2.JobSubmissionInput;
+import com.lexmark.workflow.components.prompt.jsapi2.JobSubmissionOutput;
+import com.lexmark.workflow.components.prompt.jsapi2.NameValue;
+
+
+public class TestWsdl {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		JobSubmissionInput jobSubmissionInput =new JobSubmissionInput();
+		NameValue n1= new NameValue();
+		n1.setKey("1");
+		n1.setValue("one");
+		NameValue n2= new NameValue();
+		n2.setKey("2");
+		n2.setValue("two");
+		NameValue n[]={n1,n2};
+		jobSubmissionInput.setSoapMap(n);
+		System.out.println("hello");
+		
+		String url2="http://localhost:8080/TestJobSubmission/services/JobSubmission2SOAP12port_http?wsdl";
+		URL url1;
+		JobSubmission2PortType jpbport;
+		try {
+			url1 = new URL(url2);
+			jpbport = new JobSubmission2Locator().getJobSubmission2SOAP11port_http(url1);
+			JobSubmissionOutput jsout =	jpbport.submitJob(jobSubmissionInput);
+			         NameValue ou[]=jsout.getSoapMap();
+			         
+			System.out.println("hello");
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		catch (ServiceException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

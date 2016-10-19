@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Jndi_Value.java&apos; to &apos;JndiValue.java&apos;&#x0D;&#x0A;- Original project: &apos;Jndivalue&apos;&#x0D;&#x0A;- Original element: &apos;Jndi_Value.java&apos;&#x0D;&#x0A;- Renamed element: &apos;JndiValue.java&apos;" description="Rename compilation unit &apos;Jndi_Value.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Jndi_Value.java" name="JndiValue.java" references="false" stamp="1419170134941" version="1.0"/>
+</session>

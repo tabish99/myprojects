@@ -1,0 +1,43 @@
+package practice;
+//Complete this code or write your own from scratch
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+class Solution{
+  public static void main(String []argh){
+      Scanner in = new Scanner(System.in);
+      int n = in.nextInt();
+      
+      BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+           StringTokenizer st ;  
+           String name;
+           int phone;
+          String str;
+          Map<String,int> map= new HashMap<String,int>();
+      for(int i = 0; i < n; i++){
+           
+           str = br.readLine();
+          st =new StringTokenizer(str);
+           name= st.nextToken();
+           phone= Integer.parseInt(st.nextToken()); 
+          map.put(name,phone);
+          
+          // Write code here
+      }
+      List list= new ArrayList();
+      while((str==br.readLine())!=-1)
+          {
+            list.add(str);
+          }
+          for(String inp:list)
+          {
+            if( null !=map.getObject(inp))
+             {
+                System.out.println(inp+" = "+map.getObject(inp));
+            }
+          }
+      in.close();
+  }
+}

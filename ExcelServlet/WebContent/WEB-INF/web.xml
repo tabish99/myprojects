@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>ExcelServlet</servlet-name>
+<servlet-class>ExcelServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ExcelServlet</servlet-name>
+<url-pattern>/excelservlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

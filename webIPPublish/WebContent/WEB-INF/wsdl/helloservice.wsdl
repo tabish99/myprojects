@@ -1,0 +1,109 @@
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:tns="http://www.tabish.com"  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://www.tabish.com"
+	name="helloservice">
+	<types>
+			<xs:schema targetNamespace="http://www.tabish.com">
+				<xs:element name="add" type="tns:add" />
+				<xs:element name="add1" type="tns:add1" />
+				<xs:element name="add1Response" type="tns:add1Response" />
+				<xs:element name="addResponse" type="tns:addResponse" />
+				<xs:complexType name="add">
+					<xs:sequence>
+						<xs:element name="arg0" type="tns:helloInput"
+							minOccurs="0" />
+					</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="helloInput">
+					<xs:sequence>
+						<xs:element name="b" type="xs:boolean" minOccurs="0" />
+						<xs:element name="f" type="xs:float" minOccurs="0" />
+						<xs:element name="i" type="xs:int" />
+						<xs:element name="l" type="xs:long" minOccurs="0" />
+						<xs:element name="l1" type="xs:long" minOccurs="0" />
+						<xs:element name="str" type="xs:string" minOccurs="0" />
+						<xs:element name="str2" type="xs:string" minOccurs="0" />
+					</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="addResponse">
+					<xs:sequence>
+						<xs:element name="return" type="tns:helloOutput"
+							minOccurs="0" />
+					</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="helloOutput">
+					<xs:sequence>
+						<xs:element name="b_out" type="xs:boolean" minOccurs="0" />
+						<xs:element name="f_out" type="xs:float" minOccurs="0" />
+						<xs:element name="i_out" type="xs:int" />
+						<xs:element name="l1_out" type="xs:long" minOccurs="0" />
+						<xs:element name="l_out" type="xs:long" minOccurs="0" />
+						<xs:element name="str2_out" type="xs:string" minOccurs="0" />
+						<xs:element name="str_out" type="xs:string" minOccurs="0" />
+					</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="add1">
+					<xs:sequence>
+						<xs:element name="arg0" type="tns:helloInput"
+							minOccurs="0" />
+					</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="add1Response">
+					<xs:sequence>
+						<xs:element name="return" type="tns:helloOutput"
+							minOccurs="0" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:schema>
+	</types>
+	<message name="add">
+		<part name="parameters" element="tns:add" />
+	</message>
+	<message name="addResponse">
+		<part name="parameters" element="tns:addResponse" />
+	</message>
+	<message name="add1">
+		<part name="parameters" element="tns:add1" />
+	</message>
+	<message name="add1Response">
+		<part name="parameters" element="tns:add1Response" />
+	</message>
+	<portType name="hellomethod">
+		<operation name="add">
+			<input message="tns:add" />
+			<output message="tns:addResponse" />
+		</operation>
+		<operation name="add1">
+			<input message="tns:add1" />
+			<output message="tns:add1Response" />
+		</operation>
+	</portType>
+	<binding name="helloportBinding" type="tns:hellomethod">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"
+			style="document" />
+		<operation name="add">
+			<soap:operation soapAction="" />
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<output>
+				<soap:body use="literal" />
+			</output>
+		</operation>
+		<operation name="add1">
+			<soap:operation soapAction="" />
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<output>
+				<soap:body use="literal" />
+			</output>
+		</operation>
+	</binding>
+	<service name="helloservice">
+		<port name="helloport" binding="tns:helloportBinding">
+			<soap:address
+				location="http://localhost:7001//webIPPublish/helloservice" />
+		</port>
+	</service>
+</definitions>

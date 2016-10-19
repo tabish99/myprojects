@@ -1,0 +1,4 @@
+C\:/Users/Who_Is_Stopping_You/workspace/webIPPublishEAR/EarContent/APP-INF/classes = APP-INF/classes
+C\:/Users/Who_Is_Stopping_You/workspace/webIPPublish/WebContent = webIPPublish.war
+C\:/Users/Who_Is_Stopping_You/workspace/webIPPublish/build/weboutput = webIPPublish.war
+C\:/Users/Who_Is_Stopping_You/workspace/webIPPublish/build/classes = webIPPublish.war/WEB-INF/classes

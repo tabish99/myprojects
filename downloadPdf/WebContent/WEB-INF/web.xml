@@ -1,0 +1,14 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>PdfServlet</servlet-name>
+		<servlet-class>DownPdf</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>PdfServlet</servlet-name>
+		<url-pattern>/downpdf</url-pattern>
+	</servlet-mapping>
+<!-- copy paste ure in Ie also it will work -->
+</web-app>

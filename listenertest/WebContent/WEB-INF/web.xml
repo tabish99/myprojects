@@ -1,0 +1,8 @@
+<web-app>
+
+<listener>
+<listener-class>ListenerTest</listener-class>
+</listener>
+
+
+</web-app>

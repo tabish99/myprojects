@@ -1,0 +1,3 @@
+unsynchronized method in shared class has no effect of lock gain by first thread.
+
+other thread(2) will be able to make entry in that unsynchronised method while 1st gain the lock

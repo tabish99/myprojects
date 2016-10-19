@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Ejb1_Ejb1Client_Ear">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="Ejb1_Ejb1Client.war" deploy-path="/" handle="module:/resource/Ejb1_Ejb1Client/Ejb1_Ejb1Client">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TestEjb1.jar" deploy-path="/" handle="module:/resource/TestEjb1/TestEjb1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

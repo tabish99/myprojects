@@ -1,0 +1,26 @@
+import java.util.Enumeration;
+import java.util.Hashtable;
+class TreeMapDemo3 // in insertion order
+	{
+		public static void main(String... s1)
+			{
+				Hashtable<String, String> hm = new Hashtable<String, String>();// random
+				System.out.println(hm.size());
+				System.out.println("random");
+				hm.put("1004", "ddd");
+				hm.put("1003", "ccc");
+				hm.put("1002", "bbb");
+				hm.put("1001", "aaa");
+
+				Enumeration e = hm.elements();
+
+				while (e.hasMoreElements())
+					{
+						String s11 = (String) e.nextElement();
+						// String k=(String)e.getKey();
+						// String v=(String)e.getValue();
+						System.out.println(s11 + "=");
+					}
+			}
+
+	}

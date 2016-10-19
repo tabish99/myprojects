@@ -1,0 +1,54 @@
+package com.lexmark.workflow.components.prompt.jsapi2;
+
+public class JobSubmission2PortTypeProxy implements com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2PortType {
+  private String _endpoint = null;
+  private com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2PortType jobSubmission2PortType = null;
+  
+  public JobSubmission2PortTypeProxy() {
+    _initJobSubmission2PortTypeProxy();
+  }
+  
+  public JobSubmission2PortTypeProxy(String endpoint) {
+    _endpoint = endpoint;
+    _initJobSubmission2PortTypeProxy();
+  }
+  
+  private void _initJobSubmission2PortTypeProxy() {
+    try {
+      jobSubmission2PortType = (new com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2Locator()).getJobSubmission2SOAP11port_http();
+      if (jobSubmission2PortType != null) {
+        if (_endpoint != null)
+          ((javax.xml.rpc.Stub)jobSubmission2PortType)._setProperty("javax.xml.rpc.service.endpoint.address", _endpoint);
+        else
+          _endpoint = (String)((javax.xml.rpc.Stub)jobSubmission2PortType)._getProperty("javax.xml.rpc.service.endpoint.address");
+      }
+      
+    }
+    catch (javax.xml.rpc.ServiceException serviceException) {}
+  }
+  
+  public String getEndpoint() {
+    return _endpoint;
+  }
+  
+  public void setEndpoint(String endpoint) {
+    _endpoint = endpoint;
+    if (jobSubmission2PortType != null)
+      ((javax.xml.rpc.Stub)jobSubmission2PortType)._setProperty("javax.xml.rpc.service.endpoint.address", _endpoint);
+    
+  }
+  
+  public com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2PortType getJobSubmission2PortType() {
+    if (jobSubmission2PortType == null)
+      _initJobSubmission2PortTypeProxy();
+    return jobSubmission2PortType;
+  }
+  
+  public com.lexmark.workflow.components.prompt.jsapi2.JobSubmissionOutput submitJob(com.lexmark.workflow.components.prompt.jsapi2.JobSubmissionInput part1) throws java.rmi.RemoteException, com.lexmark.workflow.components.prompt.jsapi2.ProfileNotFoundDetail{
+    if (jobSubmission2PortType == null)
+      _initJobSubmission2PortTypeProxy();
+    return jobSubmission2PortType.submitJob(part1);
+  }
+  
+  
+}

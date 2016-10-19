@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;BGC/src/org.tabish.bgc_interface&apos;&#x0D;&#x0A;- Original project: &apos;BGC_interfaces&apos;&#x0D;&#x0A;- Destination element: &apos;BGC/src/org.tabish.bgc_interface&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Construct.java&#x0D;&#x0A;     Interface1.java&#x0D;&#x0A;     Interface.java" description="Copy compilation units" destination="=BGC/src&lt;org.tabish.bgc_interface" element1="/src&lt;{Construct.java" element2="/src&lt;{Interface1.java" element3="/src&lt;{Interface.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1420223190109" units="3" version="1.0"/>
+</session>

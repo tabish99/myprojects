@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=TestEJB/C:\/Oracle\/Middleware\/modules\/javax.ejb_3.0.1.jar&lt;javax.ejb(EJBHome.class[EJBHome" modifiers="1537" timestamp="1419056119664"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(TreeMap.class[TreeMap" modifiers="33" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Map.class[Map" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Stack.class[Stack" modifiers="33" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Queue.class[Queue" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Iterator.class[Iterator" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(ListIterator.class[ListIterator" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Enumeration.class[Enumeration" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Collections.class[Collections" modifiers="33" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.lang(Iterable.class[Iterable" modifiers="1537" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(AbstractList.class[AbstractList" modifiers="1057" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(Hashtable.class[Hashtable" modifiers="33" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(LinkedHashMap.class[LinkedHashMap" modifiers="33" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.lang(ClassLoader.class[ClassLoader" modifiers="1057" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(HashMap.class[HashMap" modifiers="33" timestamp="1398578177781"/>
+<typeInfo handle="=APOC_Vids/C:\/Program Files\/Java\/jdk1.7.0_45\/jre\/lib\/rt.jar&lt;java.util(LinkedList.class[LinkedList" modifiers="33" timestamp="1398578177781"/>
+</typeInfoHistroy>

@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/Attachment.java=UTF-8
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/JobSubmission2.java=UTF-8
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/JobSubmission2Locator.java=UTF-8
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/JobSubmissionInput.java=UTF-8
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/JobSubmissionOutput.java=UTF-8
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/NameValue.java=UTF-8
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/ProfileNotFoundDetail.java=UTF-8
+encoding//src/com/lexmark/workflow/components/prompt/jsapi2/TaskInfo.java=UTF-8

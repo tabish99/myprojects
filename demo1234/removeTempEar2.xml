@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Dare to touch it @copyright tabish.org -->
+<project name="removeTempEar" basedir="C:/a/appsrv01" default="clean" >
+	<property name="asset.dir" value="01hw715034tabish" />
+	<property name="prj1.dir" value="chordiant.ear" />
+	
+	
+	
+	<target name="clean" description="Clean output directories" depends="clean1" >
+		<echo message="deleted: in project installesapps **/*.* " />
+		<echo message="${ant.project.name}: ${ant.file}"/>
+		<delete  failonerror="false" includeemptydirs="true" >
+			<fileset dir="installedapps/${asset.dir}/application/${prj1.dir}"/>
+			<fileset dir="installedapps/${asset.dir}/blas/${prj1.dir}"/>
+			<fileset dir="installedapps/${asset.dir}/cus/${prj1.dir}"/>
+		</delete>
+	</target>
+
+	<target name="clean2" description="Clean output directories" depends="">
+		<echo message="deleted: in project cells **/*.*" />
+		<echo message="${ant.project.name}: ${ant.file}"/>
+		<delete  failonerror="false" includeemptydirs="true" >
+			<fileset dir="config/cells/${asset.dir}/application/${prj1.dir}"/>
+			<fileset dir="config/cells/${asset.dir}/blas/${prj1.dir}"/>
+			<fileset dir="config/cells/${asset.dir}/cus/${prj1.dir}"/>
+		</delete>
+	</target>
+	
+	<target name="clean1" description="Clean output directories" depends="clean2" >
+		<echo message="deleted: in project temp **/*.* " />
+		<echo message="${ant.project.name}: ${ant.file}"/>
+		<delete  failonerror="false" includeemptydirs="true" >
+			<fileset dir="config/temp/download/cells/${asset.dir}/application/${prj1.dir}"/>
+			<fileset dir="config/temp/download/cells/${asset.dir}/blas/${prj1.dir}"/>
+			<fileset dir="config/temp/download/cells/${asset.dir}/cus/${prj1.dir}"/>
+		</delete>
+	</target>
+
+</project>

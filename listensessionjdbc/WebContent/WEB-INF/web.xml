@@ -1,0 +1,17 @@
+<web-app>
+
+<listener>
+<listener-class>MySessionListener</listener-class>
+</listener>
+
+<servlet>
+<servlet-name>ListenerServlet</servlet-name>
+<servlet-class>ListenerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ListenerServlet</servlet-name>
+<url-pattern>/listenerservlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;BGC/src/org.tabish.bgc_inheritence&apos;&#x0D;&#x0A;- Original project: &apos;BGC_inheritence&apos;&#x0D;&#x0A;- Destination element: &apos;BGC/src/org.tabish.bgc_inheritence&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Child1.java&#x0D;&#x0A;     Childts.java&#x0D;&#x0A;     C.java&#x0D;&#x0A;     Child12.java&#x0D;&#x0A;     Child.java&#x0D;&#x0A;     OverLoading1.java" description="Copy compilation units" destination="=BGC/src&lt;org.tabish.bgc_inheritence" element1="/src&lt;{Child1.java" element2="/src&lt;{Childts.java" element3="/src&lt;{C.java" element4="/src&lt;{Child12.java" element5="/src&lt;{Child.java" element6="/src&lt;{OverLoading1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1420223059464" units="6" version="1.0"/>
+</session>

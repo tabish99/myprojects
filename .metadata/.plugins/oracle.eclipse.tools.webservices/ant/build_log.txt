@@ -1,0 +1,42 @@
+Buildfile: C:\Users\Who_Is_Stopping_You\workspace\.metadata\.plugins\oracle.eclipse.tools.webservices\ant\build.xml
+Trying to override old definition of task wsgen
+
+fork_build_client:
+     [java] Buildfile: C:\Users\Who_Is_Stopping_You\workspace\.metadata\.plugins\oracle.eclipse.tools.webservices\ant\build.xml
+     [java] 
+     [java] build_client:
+     [java] Trying to override old definition of task clientgen
+     [java] [clientgen] System property "false" is not supported
+     [java] [clientgen] Catalog dir = C:\Users\WHO_IS~1\AppData\Local\Temp\_vhn32z\META-INF\wsdls
+     [java] [clientgen] Download file [JobSubmission2.wsdl] to C:\Users\WHO_IS~1\AppData\Local\Temp\_vhn32z\META-INF\wsdls
+     [java] [clientgen] Ignoring JAX-RPC options - building a JAX-WS client
+     [java] [clientgen] 
+     [java] [clientgen] *********** jax-ws clientgen attribute settings ***************
+     [java] [clientgen] 
+     [java] [clientgen] wsdlURI: file:/C:/Users/Who_Is_Stopping_You/workspace/publish_web_service/WebContent/wsdl/JobSubmission2.wsdl
+     [java] [clientgen] packageName : null
+     [java] [clientgen] destDir : C:\Users\WHO_IS~1\AppData\Local\Temp\_vhn32z
+     [java] [clientgen] 
+     [java] [clientgen] *********** jax-ws clientgen attribute settings end ***************
+     [java] [clientgen] Consider using <depends>/<produces> so that wsimport won't do unnecessary compilation
+     [java] [clientgen] parsing WSDL...
+     [java] [clientgen] 
+     [java] [clientgen] 
+     [java] [clientgen] [WARNING] SOAP port "JobSubmission2SOAP12port_http": uses a non-standard SOAP 1.2 binding.
+     [java] [clientgen]   line 138 of file:/C:/Users/Who_Is_Stopping_You/workspace/publish_web_service/WebContent/wsdl/JobSubmission2.wsdl
+     [java] [clientgen] 
+     [java] [clientgen] generating code...
+     [java] [clientgen] 
+     [java] [clientgen] 
+     [java] [clientgen] compiling code...
+     [java] [clientgen] 
+     [java]      [null] Compiling 13 source files to C:\Users\WHO_IS~1\AppData\Local\Temp\_vhn32z
+     [java]      [null] Building jar: C:\Users\Who_Is_Stopping_You\workspace\publish_web_service\WebContent\WEB-INF\lib\JobSubmission2.wsdl.jar
+     [java] [AntUtil.deleteDir] Deleting directory C:\Users\WHO_IS~1\AppData\Local\Temp\_vhn32z
+     [java] 
+     [java] BUILD SUCCESSFUL
+     [java] Total time: 6 seconds
+BUILD SUCCESSFUL
+
+BUILD SUCCESSFUL
+Total time: 9 seconds

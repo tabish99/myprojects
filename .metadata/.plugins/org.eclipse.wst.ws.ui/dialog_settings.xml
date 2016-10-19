@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="1/org.eclipse.jst.ws.wsImpl.java">
+		<item value="/webAxis2Job/WebContent/wsdl/JobSubmission2.wsdl"/>
+		<item value="/webIPPublish/WebContent/WEB-INF/wsdl/helloservice.wsdl"/>
+		<item value="/webservice5/WebContent/wsdl/helloservice.wsdl"/>
+		<item value="/webservice5/WebContent/wsdl/JobSubmission2.wsdl"/>
+		<item value="/webservice3/WebContent/wsdl/JobSubmission2.wsdl"/>
+		<item value="/webservice_oracle/WebContent/wsdl/JobSubmission2.wsdl"/>
+	</list>
+</section>

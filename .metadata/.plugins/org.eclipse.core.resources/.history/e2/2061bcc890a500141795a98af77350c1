@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Ejb1_Ejb1Client">
+        <property name="context-root" value="Ejb1_Ejb1Client"/>
+        <property name="java-output-path" value="/Ejb1_Ejb1Client/build/classes"/>
+    </wb-module>
+</project-modules>

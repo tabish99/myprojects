@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+          xmlns:f="http://java.sun.com/jsf/core"
+	      xmlns:h="http://java.sun.com/jsf/html"
+		  xmlns:ui="http://java.sun.com/jsf/facelets"
+		  xmlns:tr="http://myfaces.apache.org/trinidad"
+		  xmlns:trh="http://myfaces.apache.org/trinidad/html" version="2.0" >
+    <jsp:directive.page language="java"
+        contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" />
+    <jsp:text>
+        <![CDATA[ <?xml version="1.0" encoding="ISO-8859-1" ?> ]]>
+    </jsp:text>
+    <jsp:text>
+        <![CDATA[ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> ]]>
+    </jsp:text>
+  
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Insert title here</title>
+</head>
+<body>
+<f:view>
+<tr:form>
+
+<trh:tableLayout borderWidth="10" cellPadding="0" cellSpacing="10">table
+
+<trh:rowLayout width="0%" halign="right" valign="top"  >row
+
+<trh:cellFormat  halign="left" width="700" valign="top" height="120"  rowSpan="2" wrappingDisabled="true">cell
+<tr:inputText value=" " label="Name1: "  />
+b/w i/p text
+<tr:inputText  rows="2" value=" " label="Name2: " />
+</trh:cellFormat>
+b/w cell
+<trh:cellFormat columnSpan="2">cell
+<tr:inputText value=" " label="Enter Name: " />
+</trh:cellFormat>
+
+</trh:rowLayout>
+b/w row
+<trh:rowLayout width="100%" halign="left" valign="bottom">row
+<trh:cellFormat >1st cell.........
+</trh:cellFormat>
+</trh:rowLayout>
+<trh:rowLayout >hell0...</trh:rowLayout>
+
+table
+</trh:tableLayout>
+
+</tr:form>
+</f:view>
+
+</body>
+
+</html>
+
+</jsp:root>

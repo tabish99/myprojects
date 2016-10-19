@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Oracle JAX-WS 2.1.5. --><xs:schema xmlns:tns="http://www.tabish.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://www.tabish.com">
+
+<xs:element name="add" type="tns:add"/>
+
+<xs:element name="add1" type="tns:add1"/>
+
+<xs:element name="add1Response" type="tns:add1Response"/>
+
+<xs:element name="addResponse" type="tns:addResponse"/>
+
+<xs:complexType name="add">
+<xs:sequence>
+<xs:element name="arg0" type="tns:helloInput" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloInput">
+<xs:sequence>
+<xs:element name="b" type="xs:boolean" minOccurs="0"/>
+<xs:element name="f" type="xs:float" minOccurs="0"/>
+<xs:element name="i" type="xs:int"/>
+<xs:element name="l" type="xs:long" minOccurs="0"/>
+<xs:element name="l1" type="xs:long" minOccurs="0"/>
+<xs:element name="str" type="xs:string" minOccurs="0"/>
+<xs:element name="str2" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:helloOutput" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloOutput">
+<xs:sequence>
+<xs:element name="b_out" type="xs:boolean" minOccurs="0"/>
+<xs:element name="f_out" type="xs:float" minOccurs="0"/>
+<xs:element name="i_out" type="xs:int"/>
+<xs:element name="l1_out" type="xs:long" minOccurs="0"/>
+<xs:element name="l_out" type="xs:long" minOccurs="0"/>
+<xs:element name="str2_out" type="xs:string" minOccurs="0"/>
+<xs:element name="str_out" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="add1">
+<xs:sequence>
+<xs:element name="arg0" type="tns:helloInput" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="add1Response">
+<xs:sequence>
+<xs:element name="return" type="tns:helloOutput" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

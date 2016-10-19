@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:tr="http://myfaces.apache.org/trinidad"
+	xmlns:trh="http://myfaces.apache.org/trinidad/html" version="2.0">
+	    <jsp:directive.page language="java"
+        contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" />
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	
+	</head>
+<body>
+	<f:view>
+
+		<trh:head title="hello">
+			<trh:script>
+        var prg_width = 200;
+ 
+        function progress() {
+            var node = document.getElementById('progress');
+            var w    = node.style.width.match(/\d+/);
+ 
+            if (w >= prg_width) {
+            	                       
+            	 document.getElementById('hidbtn').style.display='';
+                w = 0;
+            }
+ 
+            node.style.width = parseInt(w) + 3 + 'px';
+        }
+        
+        function interval() {
+        						alert('a');
+        	                document.getElementById('okbtn').disabled=true;
+        	     			setInterval(progress,80);
+        	     			alert('b')
+        }
+        </trh:script>
+		</trh:head>
+		<tr:form>
+			<!-- width of table layout,cell format only matters.  -->
+			<!-- if width of tablelauout present,then width of rowlayout is ignored -->
+			<trh:tableLayout borderWidth="5" cellPadding="3" cellSpacing="3"
+				halign="center" width="110%">
+				<trh:rowLayout halign="center">
+					<trh:tableLayout width="50%" borderWidth="2">
+						<trh:rowLayout halign="center">
+							<trh:cellFormat>
+								<tr:outputText value="hello"></tr:outputText>
+							</trh:cellFormat>
+							<trh:cellFormat>
+								<tr:commandButton id="okbtn" text="ok"></tr:commandButton>
+							</trh:cellFormat>
+							<trh:cellFormat>
+								<tr:commandButton id="hidbtn" text="hid"
+									inlineStyle="display:none"></tr:commandButton>
+							</trh:cellFormat>
+						</trh:rowLayout>
+					</trh:tableLayout>
+				</trh:rowLayout>
+				<trh:rowLayout>
+					<trh:tableLayout width="100%" borderWidth="2">
+						<trh:rowLayout halign="center">
+							<trh:cellFormat>
+								<div
+									style="border: 2px solid black; width: 200px; height: 10px;">
+									<div id="progress"
+										style="height: 10px; width: 0px; background-color: grey;" />
+								</div>
+							</trh:cellFormat>
+
+						</trh:rowLayout>
+						<trh:rowLayout>
+							<trh:cellFormat height="100%" width="100%">
+								<iframe
+									src="file://C:\\Users\\Who_Is_Stopping_You\\Desktop\\file.pdf">
+								</iframe>
+							</trh:cellFormat>
+						</trh:rowLayout>
+
+
+					</trh:tableLayout>
+				</trh:rowLayout>
+			</trh:tableLayout>
+
+		</tr:form>
+		<trh:script text="interval();"></trh:script>
+	</f:view>
+
+</body>
+
+	</html>
+
+</jsp:root>

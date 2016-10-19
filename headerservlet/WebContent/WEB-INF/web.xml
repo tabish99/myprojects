@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>HeaderServlet</servlet-name>
+<servlet-class>HeaderServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>HeaderServlet</servlet-name>
+<url-pattern>/headerservlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

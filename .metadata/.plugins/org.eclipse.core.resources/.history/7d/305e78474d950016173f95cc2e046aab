@@ -1,0 +1,18 @@
+package hack.rank.java;
+
+public class Matrix
+	{
+
+		public static void main(String[] args)
+			{
+				
+				int mat[][]=new int[6][6];
+				
+				
+				
+				
+				
+
+			}
+
+	}

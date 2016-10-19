@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:tr="http://myfaces.apache.org/trinidad"
+	xmlns:trh="http://myfaces.apache.org/trinidad/html" version="2.0">
+	<jsp:directive.page language="java"
+		contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" />
+	<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<SCRIPT type="text/javascript">alert('script up');</SCRIPT>
+<SCRIPT type="text/javascript">
+function call(){
+	document.getElementById("okbtn").disabled=true;
+	document.getElementById("i1").disabled=true;
+	document.getElementById("o1").disabled=true;
+	document.getElementById("btn").click();
+	alert('click');
+	
+}
+</SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Insert title here</title>
+</head>
+<body>
+	<f:view >
+		<trh:tableLayout>
+			<trh:rowLayout>
+				<trh:tableLayout>
+					<trh:rowLayout>
+						<tr:inputText id="i1" value="#{hello.name}"/>
+					</trh:rowLayout>
+					<trh:rowLayout>
+						<tr:outputText id="o1" value="#{hello.count}"></tr:outputText>
+					</trh:rowLayout>
+				</trh:tableLayout>
+			</trh:rowLayout>
+			
+			<trh:rowLayout>
+				<trh:tableLayout>
+					<trh:rowLayout>
+						<tr:commandButton id="okbtn" text="ok" onclick="call();"></tr:commandButton>
+			    	</trh:rowLayout>
+				</trh:tableLayout>
+			</trh:rowLayout>
+                <tr:commandButton id="btn" text="submit" actionListener="#{hello.onBtn}" inlineStyle=""></tr:commandButton>
+                <h:commandButton id="submitButton1"  
+         value="Submit"  >
+         <f:actionListener 
+            type="UserActionListener" />
+      </h:commandButton>
+		</trh:tableLayout>
+		<trh:script text="
+alert('trh script onload end');
+"></trh:script>
+		
+	</f:view>
+</body>
+
+	</html>
+	
+</jsp:root>

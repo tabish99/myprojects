@@ -1,0 +1,5 @@
+C\:/Users/Who_Is_Stopping_You/workspace/EjbWeb_Ear/EarContent/APP-INF/classes = APP-INF/classes
+C\:/Users/Who_Is_Stopping_You/workspace/EjbWeb/build/classes = EjbWeb.jar
+C\:/Users/Who_Is_Stopping_You/workspace/EjbWebWeb/WebContent = EjbWebWeb.war
+C\:/Users/Who_Is_Stopping_You/workspace/EjbWebWeb/build/weboutput = EjbWebWeb.war
+C\:/Users/Who_Is_Stopping_You/workspace/EjbWebWeb/build/classes = EjbWebWeb.war/WEB-INF/classes

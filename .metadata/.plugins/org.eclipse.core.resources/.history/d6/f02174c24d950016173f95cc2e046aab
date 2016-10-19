@@ -1,0 +1,34 @@
+package hack.rank.java;
+
+public class Matrix
+	{
+
+		public static void main(String[] args)
+			{
+				
+				int mat[][]=new int[6][6];
+		
+				
+				
+				
+				
+				for(int r=0;r<4;r++)
+					{
+						for (int c = 0; c < 4; c++)
+							{
+								for (int i = r; i < 3 + r; i++)
+									{
+										for (int j = c; j < 3 + c; j++)
+											{
+													System.out.println();
+											}
+									}
+								c++;
+							}
+
+					}
+				
+
+			}
+
+	}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="Ejb1_Ejb1Client_Ear" key="LASTEARNAME_"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<list key="J2EE_IMPORT_null">
+		<item value="D:\study\java_rec\data\bea\Mydomain\autodeploy\sessionlistener.war"/>
+		<item value="D:\study\java_rec\data\bea\Mydomain\autodeploy\sendredirect.war"/>
+		<item value="D:\study\java_rec\data\bea\Mydomain\autodeploy\send_redirect.war"/>
+		<item value="D:\study\java_rec\data\bea\Mydomain\autodeploy\s11.war"/>
+		<item value="D:\study\java_rec\data\bea\Mydomain\autodeploy\s5.war"/>
+		<item value="D:\study\java_rec\data\bea\Mydomain\autodeploy\s2.war"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="C:\Users\Who_Is_Stopping_You\Desktop\Ejb1_Ejb1Client_Ear.ear"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v7.0"/>
+		<item value="Oracle WebLogic Server 11gR1 (10.3.6)"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_EJB">
+		<item value="C:\Users\Who_Is_Stopping_You\Desktop\EjbWeb.jar"/>
+	</list>
+</section>

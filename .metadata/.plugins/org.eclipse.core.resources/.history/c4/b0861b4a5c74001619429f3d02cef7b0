@@ -1,0 +1,24 @@
+package org.tabish.bgc;
+
+public class MutableImmutable
+	{
+
+		public static void main(String[] args)
+			{
+
+				String immutable="hello";
+				String immutable1="hello1";
+				
+				StringBuffer mutable=new StringBuffer("mutable");
+				StringBuffer mutable1=new StringBuffer("mutable1");
+				
+				String immuteProxy=immutable;
+				immutable="nnot same hence immutable";
+				if(!(immutable==immuteProxy))
+						System.out.println(immutable);
+				
+				StringBuffer sb=mutable;
+				
+			}
+
+	}

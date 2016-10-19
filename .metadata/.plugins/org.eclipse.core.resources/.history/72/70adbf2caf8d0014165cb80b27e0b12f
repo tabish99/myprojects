@@ -1,0 +1,77 @@
+/**
+ * GeoIPServiceSoapSkeleton.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package net.webservicex.www;
+
+public class GeoIPServiceSoapSkeleton implements net.webservicex.www.GeoIPServiceSoap, org.apache.axis.wsdl.Skeleton {
+    private net.webservicex.www.GeoIPServiceSoap impl;
+    private static java.util.Map _myOperations = new java.util.Hashtable();
+    private static java.util.Collection _myOperationsList = new java.util.ArrayList();
+
+    /**
+    * Returns List of OperationDesc objects with this name
+    */
+    public static java.util.List getOperationDescByName(java.lang.String methodName) {
+        return (java.util.List)_myOperations.get(methodName);
+    }
+
+    /**
+    * Returns Collection of OperationDescs
+    */
+    public static java.util.Collection getOperationDescs() {
+        return _myOperationsList;
+    }
+
+    static {
+        org.apache.axis.description.OperationDesc _oper;
+        org.apache.axis.description.FaultDesc _fault;
+        org.apache.axis.description.ParameterDesc [] _params;
+        _params = new org.apache.axis.description.ParameterDesc [] {
+            new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("http://www.webservicex.net/", "IPAddress"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false), 
+        };
+        _oper = new org.apache.axis.description.OperationDesc("getGeoIP", _params, new javax.xml.namespace.QName("http://www.webservicex.net/", "GetGeoIPResult"));
+        _oper.setReturnType(new javax.xml.namespace.QName("http://www.webservicex.net/", "GeoIP"));
+        _oper.setElementQName(new javax.xml.namespace.QName("http://www.webservicex.net/", "GetGeoIP"));
+        _oper.setSoapAction("http://www.webservicex.net/GetGeoIP");
+        _myOperationsList.add(_oper);
+        if (_myOperations.get("getGeoIP") == null) {
+            _myOperations.put("getGeoIP", new java.util.ArrayList());
+        }
+        ((java.util.List)_myOperations.get("getGeoIP")).add(_oper);
+        _params = new org.apache.axis.description.ParameterDesc [] {
+        };
+        _oper = new org.apache.axis.description.OperationDesc("getGeoIPContext", _params, new javax.xml.namespace.QName("http://www.webservicex.net/", "GetGeoIPContextResult"));
+        _oper.setReturnType(new javax.xml.namespace.QName("http://www.webservicex.net/", "GeoIP"));
+        _oper.setElementQName(new javax.xml.namespace.QName("http://www.webservicex.net/", "GetGeoIPContext"));
+        _oper.setSoapAction("http://www.webservicex.net/GetGeoIPContext");
+        _myOperationsList.add(_oper);
+        if (_myOperations.get("getGeoIPContext") == null) {
+            _myOperations.put("getGeoIPContext", new java.util.ArrayList());
+        }
+        ((java.util.List)_myOperations.get("getGeoIPContext")).add(_oper);
+    }
+
+    public GeoIPServiceSoapSkeleton() {
+        this.impl = new net.webservicex.www.GeoIPServiceSoapImpl();
+    }
+
+    public GeoIPServiceSoapSkeleton(net.webservicex.www.GeoIPServiceSoap impl) {
+        this.impl = impl;
+    }
+    public net.webservicex.www.GeoIP getGeoIP(java.lang.String IPAddress) throws java.rmi.RemoteException
+    {
+        net.webservicex.www.GeoIP ret = impl.getGeoIP(IPAddress);
+        return ret;
+    }
+
+    public net.webservicex.www.GeoIP getGeoIPContext() throws java.rmi.RemoteException
+    {
+        net.webservicex.www.GeoIP ret = impl.getGeoIPContext();
+        return ret;
+    }
+
+}

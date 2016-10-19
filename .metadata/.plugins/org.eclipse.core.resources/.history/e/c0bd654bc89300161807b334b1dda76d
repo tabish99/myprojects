@@ -1,0 +1,28 @@
+package practice;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        
+        
+        String binary="";
+        boolean t=true;
+        String rem="";
+      while(t)
+       {
+          
+             rem=n%2; 
+             binary=+rem;
+          if(n==1)
+              t=false;
+            n=n/2;
+              
+            
+        }
+        System.out.println(binary);
+
+        
+    }
+}

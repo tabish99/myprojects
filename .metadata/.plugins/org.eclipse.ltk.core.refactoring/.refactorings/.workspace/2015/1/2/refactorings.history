@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;BGC/src/org/tabish/net/udp/URLReader.java&apos;" deleteContents="false" description="Delete resource &apos;BGC/src/org/tabish/net/udp/URLReader.java&apos;" element1="/BGC/src/org/tabish/net/udp/URLReader.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1420356586061"/>
+</session>

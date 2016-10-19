@@ -1,0 +1,1 @@
+set classpath=C:\bea\wlserver_10.3\server\lib\weblogic.jar;C:\bea\jdk160_05\bin;C:\database\RMI\demo\WEB-INF\classes\my

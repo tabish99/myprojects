@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+          xmlns:f="http://java.sun.com/jsf/core"
+	      xmlns:h="http://java.sun.com/jsf/html"
+		  xmlns:ui="http://java.sun.com/jsf/facelets"
+		  xmlns:tr="http://myfaces.apache.org/trinidad"
+		  xmlns:trh="http://myfaces.apache.org/trinidad/html" version="2.0" >
+   
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Insert title here</title>
+</head>
+<body>
+<f:view>
+<tr:form>
+<trh:tableLayout borderWidth="10" cellPadding="10" cellSpacing="10">table start
+<trh:tableLayout borderWidth="10" cellPadding="2" cellSpacing="10">
+
+<trh:rowLayout width="0%" halign="right" valign="top"  >row1
+
+<trh:cellFormat  halign="left" width="700" valign="top" height="120"  rowSpan="2" wrappingDisabled="true">cell1
+<tr:inputText value=" " label="input text1: "  />
+b/w i/p text
+<tr:inputText  rows="2" value=" " label="input text2: " />
+</trh:cellFormat>
+b/w cell
+
+<trh:cellFormat columnSpan="2" >cell2
+<tr:inputText value=" " label="input text1: " />
+b/w i/p text
+<tr:inputText value=" " label="input text2: " />
+</trh:cellFormat>
+
+</trh:rowLayout>
+</trh:tableLayout>
+
+b/w row
+<trh:tableLayout borderWidth="10" cellPadding="2" cellSpacing="10">
+<trh:cellFormat>cell start
+
+<trh:rowLayout width="100%" halign="left" valign="bottom">row2
+<trh:cellFormat >1st cell.....
+<tr:inputText value=" " label="input text1: "  />
+</trh:cellFormat>
+
+<trh:cellFormat >2nd cell....
+<tr:inputText value=" " label="input text2: "  />
+</trh:cellFormat>
+</trh:rowLayout>cell end
+
+</trh:cellFormat>
+</trh:tableLayout>
+
+<trh:rowLayout >hell0... this is third row</trh:rowLayout>
+
+table end
+</trh:tableLayout>
+
+</tr:form>
+</f:view>
+
+</body>
+
+</html>
+
+</jsp:root>

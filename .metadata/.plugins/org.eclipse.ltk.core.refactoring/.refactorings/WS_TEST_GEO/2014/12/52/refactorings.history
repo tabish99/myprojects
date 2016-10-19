@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;WS_TEST_GEO/WebContent/WSDL/GeoIP.wsdl&apos; to &apos;GeoIPService.wsdl&apos;" description="Rename resource &apos;GeoIP.wsdl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WSDL/GeoIP.wsdl" name="GeoIPService.wsdl" stamp="1419674059480" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;WS_TEST_GEO/WebContent/WSDL&apos; to &apos;wsdl&apos;" description="Rename resource &apos;WSDL&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WSDL" name="wsdl" stamp="1419674468225" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+<web-app>
+
+<servlet>
+<servlet-name>Send_Redirect1</servlet-name>
+<servlet-class>Send_Redirect1</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>Send_Redirect1</servlet-name>
+<url-pattern>/sendredirect</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

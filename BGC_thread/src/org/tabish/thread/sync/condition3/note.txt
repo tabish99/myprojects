@@ -1,0 +1,22 @@
+if method is synchronised and static
+
+3 thread call this method
+what happen will other 2 thread will make entry to static synchronised method? 
+
+ans: no other thread will not make entry to this static synchronised method 
+       i.e   lock is maintain on class also.(in case of static method) 
+ 
+
+
+
+
+
+
+4th condition:
+                if we call static method with class name        Shared.show()
+                                          and object also        new Thread1.show();
+                does it make entry to method because two lock is there????????
+
+ans:
+it will not make entry because 
+in case of STATIC LOCK IS CHECKED ON CLASS ONLY

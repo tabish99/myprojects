@@ -1,0 +1,18 @@
+package hack.rank.java;
+
+
+public class sampleTest {
+    int fact=1;
+
+    public static void main(String[] args) {
+        
+        
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+    
+    public int factorial (int n)
+        {
+           fact=fact*factorial(n-1);
+           return fact;
+        }
+}

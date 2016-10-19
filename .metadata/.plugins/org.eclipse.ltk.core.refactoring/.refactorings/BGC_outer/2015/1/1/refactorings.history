@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;BGC/src/org.tabish.local_variable&apos;&#x0D;&#x0A;- Original project: &apos;BGC_outer&apos;&#x0D;&#x0A;- Destination element: &apos;BGC/src/org.tabish.local_variable&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Outer2.java&#x0D;&#x0A;     Outanonym.java&#x0D;&#x0A;     Outer1.java&#x0D;&#x0A;     Inter.java&#x0D;&#x0A;     Outer.java" description="Copy compilation units" destination="=BGC/src&lt;org.tabish.local_variable" element1="/src&lt;{Outer2.java" element2="/src&lt;{Outanonym.java" element3="/src&lt;{Outer1.java" element4="/src&lt;{Inter.java" element5="/src&lt;{Outer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1420223371073" units="5" version="1.0"/>
+</session>

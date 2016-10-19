@@ -1,0 +1,11 @@
+127.0.0.1 - - [19/Oct/2016:02:23:41 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:23:43 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:23:43 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:24:26 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:24:35 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:24:39 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:24:42 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:24:43 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:24:43 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:24:47 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Oct/2016:02:25:55 +0530] "GET /AngularJs/start_angljs/testAnglJs.htm HTTP/1.1" 304 -

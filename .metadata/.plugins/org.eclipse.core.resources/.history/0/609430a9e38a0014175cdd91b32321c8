@@ -1,0 +1,81 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from JobSubmission2 WSDL service -->
+
+  <service name="JobSubmission2SOAP11port_http" provider="java:RPC" style="document" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://jsapi2.prompt.components.workflow.lexmark.com/"/>
+      <parameter name="wsdlServiceElement" value="JobSubmission2"/>
+      <parameter name="schemaQualified" value="http://jsapi2.prompt.components.workflow.lexmark.com/"/>
+      <parameter name="wsdlServicePort" value="JobSubmission2SOAP11port_http"/>
+      <parameter name="className" value="com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2SOAP11BindingSkeleton"/>
+      <parameter name="wsdlPortType" value="JobSubmission2PortType"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <parameter name="allowedMethods" value="*"/>
+
+      <arrayMapping
+        xmlns:ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        qname="ns:soapMap"
+        type="java:com.lexmark.workflow.components.prompt.jsapi2.NameValue[]"
+        innerType="cmp-ns:nameValue" xmlns:cmp-ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        qname="ns:taskInfo"
+        type="java:com.lexmark.workflow.components.prompt.jsapi2.TaskInfo"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        qname="ns:jobSubmissionInput"
+        type="java:com.lexmark.workflow.components.prompt.jsapi2.JobSubmissionInput"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        qname="ns:attachment"
+        type="java:com.lexmark.workflow.components.prompt.jsapi2.Attachment"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        qname="ns:jobSubmissionOutput"
+        type="java:com.lexmark.workflow.components.prompt.jsapi2.JobSubmissionOutput"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        qname="ns:profileNotFoundDetail"
+        type="java:com.lexmark.workflow.components.prompt.jsapi2.ProfileNotFoundDetail"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://jsapi2.prompt.components.workflow.lexmark.com/"
+        qname="ns:nameValue"
+        type="java:com.lexmark.workflow.components.prompt.jsapi2.NameValue"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>

@@ -1,0 +1,2 @@
+C\:/Users/Who_Is_Stopping_You/workspace/webservice_oracle/build/jws/weboutput = webservice_oracle.war
+C\:/Users/Who_Is_Stopping_You/workspace/webservice5/build/jws/weboutput = webservice5.war

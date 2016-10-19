@@ -1,0 +1,34 @@
+import com.lexmark.workflow.components.prompt.jsapi2.JobSubmission2SOAP11BindingImpl;
+import com.lexmark.workflow.components.prompt.jsapi2.JobSubmissionInput;
+import com.lexmark.workflow.components.prompt.jsapi2.NameValue;
+
+
+public class TestWsdl {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		JobSubmissionInput jobSubmissionInput =new JobSubmissionInput();
+		NameValue n1= new NameValue();
+		n1.setKey("1");
+		n1.setValue("one");
+		NameValue n2= new NameValue();
+		n2.setKey("2");
+		n2.setValue("two");
+		NameValue n[]={n1,n2};
+		jobSubmissionInput.setSoapMap(n);
+		System.out.println("hello");
+		
+		String url="http://localhost:8080/TestJobSubmission/services/JobSubmission2SOAP12port_http?wsdl";
+		
+		
+		JobSubmission2SOAP11BindingImpl jobimpl = new JobSubmission2SOAP11BindingImpl();
+		jobSubmissionOutput jsout =	jobimpl.submitJob(jobSubmissionInput);
+		
+		
+	}
+
+}

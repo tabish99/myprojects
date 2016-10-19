@@ -1,0 +1,7 @@
+C\:/Users/Who_Is_Stopping_You/workspace/webAxis2JobEAR/EarContent/APP-INF/classes = APP-INF/classes
+C\:/Users/Who_Is_Stopping_You/workspace/webAxis2Job/WebContent = webAxis2Job.war
+C\:/Users/Who_Is_Stopping_You/workspace/webAxis2Job/build/weboutput = webAxis2Job.war
+C\:/Users/Who_Is_Stopping_You/workspace/webAxis2Job/build/classes = webAxis2Job.war/WEB-INF/classes
+C\:/Users/Who_Is_Stopping_You/workspace/webAxisClient/WebContent = webAxisClient.war
+C\:/Users/Who_Is_Stopping_You/workspace/webAxisClient/build/weboutput = webAxisClient.war
+C\:/Users/Who_Is_Stopping_You/workspace/webAxisClient/build/classes = webAxisClient.war/WEB-INF/classes

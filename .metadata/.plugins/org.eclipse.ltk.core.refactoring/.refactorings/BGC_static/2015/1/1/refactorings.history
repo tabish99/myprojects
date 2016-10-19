@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;BGC/src/org.tabish.bgc_static&apos;&#x0D;&#x0A;- Original project: &apos;BGC_static&apos;&#x0D;&#x0A;- Destination element: &apos;BGC/src/org.tabish.bgc_static&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     StaticBlock1.java&#x0D;&#x0A;     ObjectStatic.java&#x0D;&#x0A;     Init.java&#x0D;&#x0A;     StaticBlock.java&#x0D;&#x0A;     StaticBlock2.java" description="Copy compilation units" destination="=BGC/src&lt;org.tabish.bgc_static" element1="/src&lt;{StaticBlock1.java" element2="/src&lt;{ObjectStatic.java" element3="/src&lt;{Init.java" element4="/src&lt;{StaticBlock.java" element5="/src&lt;{StaticBlock2.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1420223443311" units="5" version="1.0"/>
+</session>

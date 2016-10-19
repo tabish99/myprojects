@@ -1,0 +1,53 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Example {
+
+    public static void main(String[] args)throws Exception {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        long ncriminal;
+        long hwage;
+      
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+       String line1 = br.readLine();
+        StringTokenizer st= new StringTokenizer(line1);
+       ncriminal= 	Long.parseLong(st.nextToken());
+       long ncriminalPos[]=new long[(int)ncriminal];
+       hwage = Long.parseLong(st.nextToken());
+       String line2 = br.readLine();
+        st= new StringTokenizer(line2);
+        for(int i=0; i<ncriminal;i++)
+            {
+                ncriminalPos[i] = Long.parseLong(st.nextToken());
+            }
+        //logic
+        long nPolice=0l;
+        long distace=0l;
+        long total=0l;
+       for(long i=0l; i<ncriminal;i++)
+       {
+           nPolice++;
+          boolean tr=true;
+           while(tr)
+           {    
+           long diff=ncriminalPos[i+1]-ncriminalPos[i];
+           if(diff<hwage)
+              {
+                  distace=distace+diff;
+               i++;
+              }else
+              {
+               tr=false;
+               }
+           }
+           
+       } 
+      total=  (nPolice*hwage)+distace;
+        
+        System.out.println(total);
+        
+    }
+}

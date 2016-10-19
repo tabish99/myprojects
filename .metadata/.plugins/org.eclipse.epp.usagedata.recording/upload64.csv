@@ -1,0 +1,291 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494136411
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494142788
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494156523
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494157008
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411494159158
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411494180822
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411494189290
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494201436
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494205494
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1411494208798
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1411494208798
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411494210825
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1411494212021
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1411494212471
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411494214387
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494218352
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494235679
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411494238975
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494240507
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494240585
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494240930
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494244550
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494248939
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494266731
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494267248
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494808258
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411494810736
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411494825295
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411494827215
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494828962
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494829027
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494829530
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494835737
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494838652
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494869368
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411494876530
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1411494903611
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1411494903861
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1411494913496
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411494919363
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411494923727
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411494933636
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494935523
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494935569
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494935792
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494946085
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411494950334
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495003111
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495005340
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411495014658
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495017176
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495020899
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495024025
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495024103
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495024580
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495033132
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495043656
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495111631
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495115488
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1411495123814
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1411495132808
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495140126
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1411495146125
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.ToggleStepFilters",1411495153475
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495159339
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495168879
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495171349
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495171400
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495171673
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495173490
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495177284
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495198861
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495204458
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495211615
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495217184
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411495230535
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495268913
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495281098
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495292780
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495294453
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495304652
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495307632
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495314996
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495320063
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495499256
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411495512526
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1411495512647
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495512978
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411495513079
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.502.v201104071820,"org.eclipse.wst.wsdl.validation",1411495515941
+started,bundle,org.eclipse.wst.xsd.core,1.1.600.v201104070312,"org.eclipse.wst.xsd.core",1411495515993
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495519121
+error,log,,,"Error initializing facelet registry entry",1411495519177
+error,log,,,"Error initializing facelet registry entry",1411495519186
+error,log,,,"Error initializing facelet registry entry",1411495519192
+error,log,,,"Error initializing facelet registry entry",1411495519206
+error,log,,,"Error initializing facelet registry entry",1411495519289
+error,log,,,"Error initializing facelet registry entry",1411495519294
+error,log,,,"Error initializing facelet registry entry",1411495519317
+error,log,,,"Error initializing facelet registry entry",1411495519322
+error,log,,,"Error initializing facelet registry entry",1411495519506
+error,log,,,"Error initializing facelet registry entry",1411495519520
+error,log,,,"Error initializing facelet registry entry",1411495519528
+error,log,,,"Error initializing facelet registry entry",1411495519548
+error,log,,,"Error initializing facelet registry entry",1411495519606
+error,log,,,"Error initializing facelet registry entry",1411495519611
+error,log,,,"Error initializing facelet registry entry",1411495519623
+error,log,,,"Error initializing facelet registry entry",1411495519628
+error,log,,,"Error initializing facelet registry entry",1411495519636
+error,log,,,"Error initializing facelet registry entry",1411495519646
+error,log,,,"Error initializing facelet registry entry",1411495519652
+error,log,,,"Error initializing facelet registry entry",1411495519665
+error,log,,,"Error initializing facelet registry entry",1411495519701
+error,log,,,"Error initializing facelet registry entry",1411495519706
+error,log,,,"Error initializing facelet registry entry",1411495519717
+error,log,,,"Error initializing facelet registry entry",1411495519722
+error,log,,,"Error initializing facelet registry entry",1411495519856
+error,log,,,"Error initializing facelet registry entry",1411495519864
+error,log,,,"Error initializing facelet registry entry",1411495519869
+error,log,,,"Error initializing facelet registry entry",1411495519906
+error,log,,,"Error initializing facelet registry entry",1411495519940
+error,log,,,"Error initializing facelet registry entry",1411495519945
+error,log,,,"Error initializing facelet registry entry",1411495519955
+error,log,,,"Error initializing facelet registry entry",1411495519960
+started,bundle,org.eclipse.jst.jsf.facesconfig,1.2.2.v201105031140,"org.eclipse.jst.jsf.facesconfig",1411495520697
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411495523606
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495526916
+started,bundle,org.eclipse.pde.core,3.7.1.v20120103_r372,"org.eclipse.pde.core",1411495528326
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495529595
+error,log,,,"Error initializing facelet registry entry",1411495532619
+error,log,,,"Error initializing facelet registry entry",1411495532630
+error,log,,,"Error initializing facelet registry entry",1411495532637
+error,log,,,"Error initializing facelet registry entry",1411495532653
+error,log,,,"Error initializing facelet registry entry",1411495532744
+error,log,,,"Error initializing facelet registry entry",1411495532752
+error,log,,,"Error initializing facelet registry entry",1411495532770
+error,log,,,"Error initializing facelet registry entry",1411495532777
+error,log,,,"Error initializing facelet registry entry",1411495532929
+error,log,,,"Error initializing facelet registry entry",1411495532939
+error,log,,,"Error initializing facelet registry entry",1411495532945
+error,log,,,"Error initializing facelet registry entry",1411495532958
+error,log,,,"Error initializing facelet registry entry",1411495532990
+error,log,,,"Error initializing facelet registry entry",1411495532995
+error,log,,,"Error initializing facelet registry entry",1411495533006
+error,log,,,"Error initializing facelet registry entry",1411495533009
+error,log,,,"Error initializing facelet registry entry",1411495533017
+error,log,,,"Error initializing facelet registry entry",1411495533024
+error,log,,,"Error initializing facelet registry entry",1411495533029
+error,log,,,"Error initializing facelet registry entry",1411495533040
+error,log,,,"Error initializing facelet registry entry",1411495533073
+error,log,,,"Error initializing facelet registry entry",1411495533078
+error,log,,,"Error initializing facelet registry entry",1411495533088
+error,log,,,"Error initializing facelet registry entry",1411495533093
+error,log,,,"Error initializing facelet registry entry",1411495533221
+error,log,,,"Error initializing facelet registry entry",1411495533229
+error,log,,,"Error initializing facelet registry entry",1411495533233
+error,log,,,"Error initializing facelet registry entry",1411495533244
+error,log,,,"Error initializing facelet registry entry",1411495533301
+error,log,,,"Error initializing facelet registry entry",1411495533305
+error,log,,,"Error initializing facelet registry entry",1411495533315
+error,log,,,"Error initializing facelet registry entry",1411495533319
+error,log,,,"Error initializing facelet registry entry",1411495533328
+error,log,,,"Error initializing facelet registry entry",1411495533335
+error,log,,,"Error initializing facelet registry entry",1411495533339
+error,log,,,"Error initializing facelet registry entry",1411495533350
+error,log,,,"Error initializing facelet registry entry",1411495533380
+error,log,,,"Error initializing facelet registry entry",1411495533384
+error,log,,,"Error initializing facelet registry entry",1411495533394
+error,log,,,"Error initializing facelet registry entry",1411495533398
+error,log,,,"Error initializing facelet registry entry",1411495536211
+error,log,,,"Error initializing facelet registry entry",1411495536219
+error,log,,,"Error initializing facelet registry entry",1411495536237
+error,log,,,"Error initializing facelet registry entry",1411495536249
+error,log,,,"Error initializing facelet registry entry",1411495536281
+error,log,,,"Error initializing facelet registry entry",1411495536285
+error,log,,,"Error initializing facelet registry entry",1411495536296
+error,log,,,"Error initializing facelet registry entry",1411495536300
+error,log,,,"Error initializing facelet registry entry",1411495536376
+error,log,,,"Error initializing facelet registry entry",1411495536386
+error,log,,,"Error initializing facelet registry entry",1411495536392
+error,log,,,"Error initializing facelet registry entry",1411495536406
+error,log,,,"Error initializing facelet registry entry",1411495536441
+error,log,,,"Error initializing facelet registry entry",1411495536446
+error,log,,,"Error initializing facelet registry entry",1411495536457
+error,log,,,"Error initializing facelet registry entry",1411495536462
+error,log,,,"Error initializing facelet registry entry",1411495536469
+error,log,,,"Error initializing facelet registry entry",1411495536477
+error,log,,,"Error initializing facelet registry entry",1411495536484
+error,log,,,"Error initializing facelet registry entry",1411495536500
+error,log,,,"Error initializing facelet registry entry",1411495536532
+error,log,,,"Error initializing facelet registry entry",1411495536536
+error,log,,,"Error initializing facelet registry entry",1411495536548
+error,log,,,"Error initializing facelet registry entry",1411495536552
+error,log,,,"Error initializing facelet registry entry",1411495536701
+error,log,,,"Error initializing facelet registry entry",1411495536708
+error,log,,,"Error initializing facelet registry entry",1411495536713
+error,log,,,"Error initializing facelet registry entry",1411495536724
+error,log,,,"Error initializing facelet registry entry",1411495536756
+error,log,,,"Error initializing facelet registry entry",1411495536760
+error,log,,,"Error initializing facelet registry entry",1411495536771
+error,log,,,"Error initializing facelet registry entry",1411495536775
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495539511
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495545571
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495753649
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1411495799133
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495800152
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495802681
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411495807950
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495812077
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110815-1419,"org.eclipse.equinox.p2.garbagecollector",1411495814544
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495815001
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495824096
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495831435
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495851679
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495852194
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495854019
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495914144
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495917781
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1411495921591
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411495934927
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1411495938016
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495939921
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495939970
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495940178
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495946058
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411495949631
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496167879
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1411496171373
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496173557
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496176381
+error,log,,,"Publishing failed with multiple errors",1411496176428
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496176662
+error,log,,,"Publishing failed with multiple errors",1411496177348
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496178362
+executed,command,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.stop",1411496180781
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496183422
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496185015
+started,bundle,org.eclipse.wst.jsdt.debug.core,2.0.101.v201201112313,"org.eclipse.wst.jsdt.debug.core",1411496185093
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411496185405
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1411496187153
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1411496187153
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1411496187184
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1411496187184
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1411496187184
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.106.v201004211805,"org.eclipse.jst.ws.axis2.creation.core",1411496187199
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.105.v201004211805,"org.eclipse.jst.ws.axis2.consumption.core",1411496187199
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.303.v201003110431,"org.eclipse.jst.ws.axis2.ui",1411496187199
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1411496187199
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.ui,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.ui",1411496187215
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.609.v201103082016,"org.eclipse.jst.ws.creation.ui",1411496187231
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.ui,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.ui",1411496187231
+stopped,bundle,org.eclipse.jst.ws.consumption.ui,1.1.402.v201201250306,"org.eclipse.jst.ws.consumption.ui",1411496187246
+stopped,bundle,org.eclipse.jst.ws.consumption,1.0.603.v201202012024,"org.eclipse.jst.ws.consumption",1411496187246
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.core,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.core",1411496187246
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.core",1411496187262
+stopped,bundle,org.eclipse.jst.ws.cxf.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.cxf.ui",1411496187262
+stopped,bundle,org.eclipse.jst.ws.cxf.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.core",1411496187262
+stopped,bundle,org.eclipse.jst.ws.uddiregistry,1.0.500.v201004211805,"org.eclipse.jst.ws.uddiregistry",1411496187277
+stopped,bundle,org.eclipse.jst.ws.ui,1.0.403.v201004211805,"org.eclipse.jst.ws.ui",1411496187277
+stopped,bundle,org.eclipse.jst.ws,1.0.509.v201108250610,"org.eclipse.jst.ws",1411496187277
+stopped,bundle,org.eclipse.wst.ws.explorer,1.0.607.v201103082002,"org.eclipse.wst.ws.explorer",1411496187340
+stopped,bundle,org.eclipse.wst.wsdl.ui,1.2.403.v201108240515,"org.eclipse.wst.wsdl.ui",1411496187387
+stopped,bundle,org.eclipse.wst.ws.ui,1.1.200.v201004211805,"org.eclipse.wst.ws.ui",1411496187387
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1411496187387
+stopped,bundle,org.eclipse.wst.wsi,1.0.401.v201104071820,"org.eclipse.wst.wsi",1411496187418
+activated,perspective,org.eclipse.jst.j2ee.ui,,"org.eclipse.jst.j2ee.J2EEPerspective",1413913763656
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1413913763659
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1413913763660
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1413913763661
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1413913763662
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1413913763663
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1413913763664
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1413913763665
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1413913763666
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1413913763668
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1413913763669
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1413913763671
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1413913763671
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1413913763672
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1413913763673
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1413913763674
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1413913763675
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1413913763676
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1413913763679
+started,bundle,org.eclipse.emf.common,2.7.0.v20120127-1122,"org.eclipse.emf.common",1413913763680
+started,bundle,org.eclipse.emf.common.ui,2.7.0.v20120130-0943,"org.eclipse.emf.common.ui",1413913763680
+started,bundle,org.eclipse.emf.ecore,2.7.0.v20120127-1122,"org.eclipse.emf.ecore",1413913763704
+started,bundle,org.eclipse.emf.ecore.xmi,2.7.0.v20120127-1122,"org.eclipse.emf.ecore.xmi",1413913763705
+started,bundle,org.eclipse.emf.edit,2.7.2.v20120130-0943,"org.eclipse.emf.edit",1413913763705
+started,bundle,org.eclipse.emf.edit.ui,2.7.0.v20120130-0943,"org.eclipse.emf.edit.ui",1413913763706

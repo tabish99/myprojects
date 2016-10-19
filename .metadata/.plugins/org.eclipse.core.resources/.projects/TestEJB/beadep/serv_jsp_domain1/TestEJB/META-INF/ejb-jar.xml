@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:ejb="http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd" version="3.0">
+  <display-name>TestEJB</display-name>
+  <enterprise-beans>
+    <session>
+      <display-name>Advice Bean</display-name>
+      <ejb-name>AdviceBean</ejb-name>
+      <home>headfirst.AdviceHome</home>
+      <remote>headfirst.Advice</remote>
+      <ejb-class>headfirst.AdviceBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <security-identity>
+        <description>
+              
+              </description>
+        <use-caller-identity/>
+      </security-identity>
+    </session>
+  </enterprise-beans>
+</ejb-jar>

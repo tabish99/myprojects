@@ -1,0 +1,14 @@
+two method 
+
+1.static 
+2.non static
+
+static method is call from class name
+non static is call from object.
+
+does it make entry ??????/
+
+ans:
+     yes jisko mauka mila usne chauka maar diya
+     two lock is maintain one on class 
+          other on object.(because there are two methods one is static and one is non static(object)) 

@@ -1,0 +1,3 @@
+//Scrapbook feature   Right-click below selected sys line  ( )
+
+System.out.println(1+2+"hello"+3+4 );

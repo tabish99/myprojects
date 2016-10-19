@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;demo12345/make-jar.xml&apos; to &apos;build.xml&apos;" description="Rename resource &apos;make-jar.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="make-jar.xml" name="build.xml" stamp="1419524457474" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;demo12345/build.xml&apos; to &apos;cleanbuild.xml&apos;" description="Rename resource &apos;build.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="build.xml" name="cleanbuild.xml" stamp="1419524465635" updateReferences="true"/>
+</session>

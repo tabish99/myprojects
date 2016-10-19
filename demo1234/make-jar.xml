@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+	
+<project basedir="."  name="demo1234" default="jar">
+	
+	<target name="jar">
+		<jar destfile="build/demo1234.jar" basedir=".">
+		</jar>
+	</target>
+</project>
+

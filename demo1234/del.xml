@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="clean1" name="demo1234">
+	<property environment="env" />
+	<property name="ECLIPSE_HOME" value="D:/eclipse1" />
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.6" />
+	<property name="source" value="1.6" />
+	<!--<target name="clean" depends="clean1">
+		<echo message="deleted: in deleted target under project " />
+		<delete dir="ad">
+		</delete>
+	</target>
+   -->
+	<target name="clean1">
+		<delete>
+			<fileset dir="C:\Users\Who_Is_Stopping_You\Desktop\a">
+				<include name="**/*.*" />
+				<exclude name="**/*.bat" />
+			</fileset>
+		</delete>
+	</target>
+
+</project>

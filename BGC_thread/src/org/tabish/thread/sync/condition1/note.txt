@@ -1,0 +1,10 @@
+2 synchronized method in shared class 
+
+1st thread will call 1st synchronised method.
+2nd thread will call 2nd synchronised method.
+is it POSSIBLE????????
+
+
+thread(2) will NOT be able to make entry in that 2nd synchronised method while 1st gain the lock
+
+LOCK IS CHECKED ON OBJECT.
